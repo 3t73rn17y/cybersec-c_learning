@@ -7,6 +7,10 @@ int main (int c, char **v){
 	}	
 	
 
+	//decleration and assignmnet of file read function etc:
+	FILE *file = fopen(v[1], "r");
+	printf("file has been read successfully");
 
+	fclose(file);
 	return 0;
 }
